@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello Electron</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" type="text/css" rel="stylesheet"/>
+		<link href="../bower_components/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="panel">
+			
+			<div class="panel-heading">
+				<h4>
+					Hello, World!
+				</h4>
+			</div>
+			<div class="panel-body well">
+				<p>
+					We are using Node.js 
+					<span class="label label-info">
+						<script>document.write(process.versions.node)</script>
+					</span>, 
+					Chromium 
+					<span class="label label-info">
+						<script>document.write(process.versions.chrome)</script>
+					</span>, 
+					and Electron
+					<span class="label label-info">
+						<script>document.write(process.versions.electron)</script>
+					</span>.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

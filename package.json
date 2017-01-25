@@ -1,8 +1,15 @@
 {
 	"name": "HelloElectron",
 	"version": "1.0.0",
+	"main": "main.js",
 	"keywords": ["util", "functional", "server", "client", "browser"],
 	"author": "mec_test_1",
 	"contributors": [],
-	"dependencies": {}
+	"scripts": {
+		"start": "electron ."
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"electron": "^1.4.1"
+	}
 }
